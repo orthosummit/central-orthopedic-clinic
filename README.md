@@ -13,7 +13,7 @@
 - [랜딩페이지 예제들 1](http://blog.hubspot.com/marketing/landing-page-examples-list)
 - [랜딩페이지 예제들 2](http://blog.hubspot.com/marketing/fantastic-landing-page-examples)
 
-## 4주 완성 마일스톤
+## 3주 완성 마일스톤
 
 센트럴 정형외과 사이트는 병원을 간략하게 소개하는 페이지입니다. 사이트에는 다음 과 같은 요소들이 있습니다.
 - 점보트론: 병원 이름과 슬로건이 들어간 파트
