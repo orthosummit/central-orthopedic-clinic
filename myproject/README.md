@@ -2,9 +2,9 @@
 
 ## 가이드
 
-* [히로쿠/장고로 새롭게 프로젝트를 시작하는 방법](/docs/heroku-django-start-guide.md)
-* [장고로 프로젝트를 시작하는 방법](/docs/django-start-guide.md)
-* [히로쿠로 출시하는 방법](/docs/heroku-deploy-guide.md)
+* [히로쿠/장고로 새롭게 프로젝트를 시작하는 방법](/myproject/docs/heroku-django-start-guide.md)
+* [장고로 프로젝트를 시작하는 방법](/myproject/docs/django-start-guide.md)
+* [히로쿠로 출시하는 방법](/myproject/docs/heroku-deploy-guide.md)
 
 ## 참고자료
 
@@ -22,5 +22,6 @@
 - 진료 안내: 원장님 병원에서 제공하는 진료를 보여주는 파트
 - 오시는 길: 병원 위치가 들어간 네이버 지도를 보여주는 파트
 
-- [1주 마일스톤](/milestones/week1.md)
-- [2주 마일스톤](/milestones/week2.md)
+- [1주 마일스톤](/myproject/milestones/week1.md)
+- [2주 마일스톤](/myproject/milestones/week2.md)
+- [3주 마일스톤](/myproejct/milestones/week3.md)
