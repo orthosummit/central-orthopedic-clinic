@@ -1,6 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 body {
+    font-family: 'Nanum Gothic', serif;
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
     color: #777
@@ -37,7 +39,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -54,7 +55,6 @@ h6 {
     color: #fff;
     background-color: #fed136;
     border-color: #fed136;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -98,7 +98,6 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background-color: #fed136;
     border-color: #fed136;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
@@ -147,7 +146,6 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, monospace;
     font-weight: bold;
     font-style: normal;
 }
@@ -172,7 +170,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fed136
 }
 .navbar-default .nav li a {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -220,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url(../img/background2.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -236,7 +233,6 @@ header .intro-text {
     padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-size: 50px;
     line-height: 50px;
@@ -244,7 +240,6 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px
 }
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-style: italic;
     font-size: 22px;
@@ -258,14 +253,12 @@ header .intro-text .intro-heading {
         padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: normal;
         font-size: 75px;
         line-height: 75px;
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
@@ -283,7 +276,6 @@ section h2.section-heading {
 }
 section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -355,7 +347,6 @@ section h3.section-subheading {
     margin: 0
 }
 #treatment .portfolio-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0
@@ -581,25 +572,21 @@ section#contact .form-control:focus {
     box-shadow: none
 }
 section#contact::-webkit-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 section#contact:-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 section#contact::-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 section#contact:-ms-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
@@ -613,14 +600,12 @@ footer {
 }
 footer span.copyright {
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none
 }
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none
 }
@@ -671,7 +656,6 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px
 }
@@ -733,4 +717,13 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: #fed136
+}
+
+.history li {
+  margin-top: 8px;
+}
+
+#treatment img {
+  width: 360px;
+  height: 220px;
 }
